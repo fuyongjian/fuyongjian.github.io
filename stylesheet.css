@@ -135,6 +135,11 @@ span.highlight {
   font-weight: bold;
 }
 
+.highlight_text{
+
+color: rgb(201, 4, 4);
+font-weight: bold;
+}
 
 
 .bibtex-entry {
