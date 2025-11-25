@@ -13,13 +13,20 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill",
   "cv",
-  "tabs",
-  "typograms",
   "font-awesome/fontawesome",
   "font-awesome/brands",
   "font-awesome/solid",
-  "font-awesome/regular",
-  "tabler-icons/tabler-icons.scss",
-  "tabler-icons/tabler-icons-filled.scss",
-  "tabler-icons/tabler-icons-outline.scss"
+  "font-awesome/regular"
 ;
+
+
+/* Custom bold note */
+.note-strong {
+  font-weight: 700 !important;
+}
+
+/* Custom red bold note for awards */
+.note-best-paper {
+  color: #d40000 !important;   /* 深红色 */
+  font-weight: 700 !important; /* 加粗 */
+}

@@ -1,0 +1,31 @@
+/* --------------------------
+   Venue Colors (Customized)
+   -------------------------- */
+
+/* MobiCom */
+.badge.mobicom,
+.pub-venue.mobicom {
+    background-color: #f29105 !important; /* 橙色 */
+    color: white !important;
+}
+
+/* SenSys */
+.badge.sensys,
+.pub-venue.sensys {
+    background-color: #ff5722 !important; /* 深橙红 */
+    color: white !important;
+}
+
+/* MobiSys */
+.badge.mobisys,
+.pub-venue.mobisys {
+    background-color: #6a1b9a !important; /* 紫色 */
+    color: white !important;
+}
+
+/* INFOCOM */
+.badge.infocom,
+.pub-venue.infocom {
+    background-color: #0076df !important; /* 蓝色 */
+    color: white !important;
+}

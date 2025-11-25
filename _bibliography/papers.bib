@@ -1,115 +1,397 @@
 ---
+modified：2024-10-11 
+
+MobiCom（）、NSDI、MobiSys、SenSys、IPSN、TON、TMC、INFOCOM、UbiComp、CHI、SIGMOBILE（标出来 Research highlight）、
+ICNP、ICDCS、SECON、TOSN、MobiHoc、CSUR、COMST、TOTJ、EWSN、MSN、CWSN、Book、计算机研究与发展、中国计算机学会通讯
+
+相同类型的paper按照年份来排序
 ---
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+---
+data: 2025-11-24
+---
+
+
+
+---
+before 2025-11-24
+---
+@inproceedings{MobiCom26_TWSEarbuds,
+  author    = {Fu, Yongjian and Sun, Ke and Zhang, Xinyu and Wang, Ruyao and Li, Xinyi and Pan, Hao and Zhang, Yaoxue and Ren, Ju},
+  title     = {Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds},
+  booktitle = {Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking},
+  series    = {ACM MobiCom},
+  year      = {2026},
+  address   = {Austin, USA},
+  month     = nov,
+  abbr      = {MobiCom'26},
+  bibtex_show = {true},
+  selected  = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@inproceedings{MobiCom26_MANA,
+  author    = {Zhao, Yizhe and Fu*, Yongjian and Feng, Zihao and Pan, Hao and Deng, Yongheng and Zhang, Yaoxue and Ren, Ju},
+  title     = {MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation},
+  booktitle = {Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking},
+  series    = {ACM MobiCom},
+  year      = {2026},
+  address   = {Austin, USA},
+  month     = nov,
+  abbr      = {MobiCom'26},
+  bibtex_show = {false},
+  note      = {(* Corresponding author)},
+  selected  = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+@inproceedings{MobiCom26_MMWaveAttack,
+  author    = {Wang, Shuning and Pan, Hao and Fu*,, Yongjian and Li, Xinyi and Zhong, Linghui and Xie, Yaxiong and Sun, Ke and Xue, Guangtao and Zhang, Yaoxue and Ren, Ju},
+  title     = {Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight Manipulation},
+  booktitle = {Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking},
+  series    = {ACM MobiCom},
+  year      = {2026},
+  address   = {Austin, USA},
+  month     = nov,
+  abbr      = {MobiCom'26},
+  bibtex_show = {false},
+  note      = {(* Corresponding author)},
+  selected  = {true}
+}
+
+
+
+@article{AES26_SpeechCompression,
+  author = {Lu, Yu and Fu*, Yongjian and Pan, Hao and Ding, Dian and Xue, Guangtao and Ren, Ju},
+  title = {A Lightweight Neural Speech Compression Method for Edge Devices},
+  journal = {Acta Electronica Sinica},
+  year = {2026},
+  abbr = {AES'26},
+  month     = feb,
+  selected = {false},
+  note      = {(* Corresponding author)},
+  bibtex_show = {true}
+}
+
+
+@inproceedings{SIGGRAPHAsia25_MODepth,
+  author    = {Lu, Yu and Ding, Dian and Pan, Hao and Ding, Jiatong and Fu, Yongjian and Chen, Yi{-}Chao and Ren, Ju and Xue, Guangtao},
+  title     = {MODepth: Benchmarking Multi-frame Monocular Depth Estimation with Optical Image Stabilization},
+  booktitle = {ACM SIGGRAPH Asia},
+  year      = {2025},
+  address   = {Hong Kong, China},
+  month     = dec,
+abbr = {SIGGRAPH'25},
+bibtex_show = {true},
+selected = {false}
+}
+
+
+@inproceedings{WDNN_yezhou,
+author = {Wang#, Yezhou and Fu#, Yongjian and Pan, Hao and Hu, Qinyun and Qiu, Lili and Chen, Yi-Chao and Xue, Guangtao and Ren, Ju},
+title = {WDNN: Weighted Diffractive Neural Network for Physical-layer RF Signal Processing},
+year = {2025},
+isbn = {9798400711299},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3680207.3765240},
+doi = {10.1145/3680207.3765240},
+abstract = {Diffractive neural networks (NNs) have garnered attention for directly implementing wireless signal processing at the physical layer. However, they are limited by a constrained weight learning space and activation functions, which restricts their data processing capabilities. To address this, we propose an RF circuit-based weighted diffraction NN (WDNN) that rivals digital NNs in processing ability. We design a weighted asymmetric RF coupler unit that, when stacked into a network, enables diffractive propagation with arbitrary connection weights. Additionally, an activation module is introduced that utilizes RF amplifiers operating in their nonlinear regions. We validate the effectiveness of the proposed WDNN through three tasks: 32-level amplitude modulated (AM) signal decoding, 31-class angle of arrival (AoA) estimation, and 2-class Wi-Fi based fall detection. After training, WDNN achieves the accuracy of 98.5\%, 93.7\%, and 90.8\% in the AM decoding, AoA estimation, and fall detection tasks, respectively; while the diffractive NN SOTA achieves only 21.6\%, 16.9\%, and 63.3\%. We also implement the prototypes of WDNN and SOTA, and real-world experimental results demonstrate that our method achieves an average accuracy improvement of up to 76.85\% across various tasks compared to SOTA.},
+booktitle = {Proceedings of the 31st Annual International Conference on Mobile Computing and Networking},
+pages = {697–711},
+numpages = {15},
+keywords = {diffractive neural network, signal processing, radio-frequency hardware},
+location = {Kerry Hotel, Hong Kong, Hong Kong, China},
+series = {ACM MOBICOM '25},
+abbr = {MobiCom'25},
+bibtex_show = {true},
+note      = {(# Co-primary authors)},
+selected = {true}
+}
+
+
+@inproceedings{10.1145/3746059.3747714,
+author = {Li, Yadong and Wang, Shuning and Fu, Yongjian and Chen, Justin and Chen, Xingyu and Ren, Ju and Zhang, Xinyu and Gadre, Akshay and Sun, Ke},
+title = {UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with Ultrasound Sensing on Consumer Wearables},
+year = {2025},
+isbn = {9798400720376},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3746059.3747714},
+doi = {10.1145/3746059.3747714},
+abstract = {Full-body motion capture using IMUs embedded in consumer wearables has the potential to enable convenient, on-the-go tracking with minimal instrumentation. However, the sparse placement of these devices on the body frame presents challenges such as limited body coverage, reduced motion feature diversity, and cumulative drift errors. This paper introduces UltraPoser, a multi-modal full-body motion capture system that integrates ultrasonic sensing with inertial measurements for improved fidelity, broader coverage and increased reliability. UltraPoser&nbsp;leverages built-in microphones and speakers on commodity wearables, such as smartphones and smartwatches, to transmit and receive inaudible ultrasound signals, expanding the range of sensed body areas and providing drift-free acoustic multipath profiles. To implement UltraPoser, we systematically explore ultrasound signal designs to maximize feature quality and propose a graph-based physics-aware fusion architecture to integrate heterogeneous sensing modalities. We evaluate our approach using the UltraPoser&nbsp;Dataset, collected from 10 participants across diverse device placements and activity contexts. Compared to state-of-the-art IMU-only methods, UltraPoser&nbsp;achieves a 28.46\% improvement in overall pose estimation accuracy and up to 67.28\% error reduction for specific limbs without directly attached sensors.},
+booktitle = {Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology},
+articleno = {93},
+numpages = {15},
+keywords = {Motion capture, ultrasound sensing, multi-modal fusion},
+location = {
+},
+series = {UIST '25},
+abbr = {UIST'25},
+bibtex_show = {true},
+selected = {false}
+}
+
+
+@ARTICLE{Moirecomm_haopan,
+  author={Pan, Hao and Fu*, Yongjian and Lu, Yu and Tan, Feitong and Chen, Yi-Chao and Ren, Ju},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={MoiréComm: Secure Screen-Camera Communication Based on Moiré Cryptography}, 
+  year={2025},
+  volume={22},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pages={7552-7570},
+  keywords={QR codes;Cameras;Codes;Encryption;Security;Decoding;Online banking;Protocols;Passwords;Operating systems;Screen-camera communication;secure QR code;nonlinearity},
+  doi={10.1109/TDSC.2025.3598300},
+abbr = {TDSC'25},
+bibtex_show = {false},
+  note      = {(* Corresponding author)},
+selected = {false}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
+
+
+
+@ARTICLE{MASA_guo,
+  author={Guo, Jialin and Fu*, Yongjian and Zhai, Zhiwei and Li, Xinyi and Deng, Yongheng and Yue, Sheng and Chen, Lili and Pan, Hao and Ren, Ju},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={MASA: Multimodal Federated Learning Through Modality-Aware and Secure Aggregation}, 
+  year={2025},
+  volume={24},
   number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+  pages={7328-7344},
+  keywords={Federated learning;Data models;Servers;Data privacy;Training;Privacy;Multimodal sensors;Mobile computing;Logic gates;Performance evaluation;Multimodal sensing;federated learning;knowledge distillation},
+  doi={10.1109/TMC.2025.3548954},
+abbr = {TMC'25},
+bibtex_show = {false},
+  note      = {(* Corresponding author)},
+selected = {false}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{MobiSys25_DistanceAdaptiveCharging,
+  author       = {Chen, Lili and Zhao, Yizhe and Wang, Shuning and Zhong, Linghui and Fu, Yongjian and Yue, Sheng and Ren, Ju and Zhang, Yaoxue},
+  title        = {Towards Distance-Adaptive Wireless Charging},
+  booktitle    = {Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services},
+  series       = {ACM MobiSys},
+  year         = {2025},
+  address      = {Anaheim, California, USA},
+  month        = jun,
+  abbr         = {MobiSys'25},
+  selected     = {true},
+  bibtex_show  = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@ARTICLE{MagicWrite,
+  author={Pan, Hao and Fu, Yongjian and Qi, Ye and Chen, Yi-Chao and Ren, Ju},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={MagicWrite: One-Dimensional Acoustic Tracking-Based Air Writing System}, 
+  year={2025},
+  volume={24},
+  number={5},
+  pages={4403-4418},
+  keywords={Writing;Radar tracking;Trajectory;Microphones;Tracking;Accuracy;Target tracking;Acoustics;Long short term memory;Computational modeling;Air writing system;wireless sensing;human-computer interaction},
+  doi={10.1109/TMC.2025.3526185},
+abbr = {TMC'25},
+bibtex_show = {true},
+selected = {false}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+
+@INPROCEEDINGS{UIC_junying,
+  author={Hu, Junying and Fu, Yongjian and Chen, Lili and Li, Xinyi and Sun, Xue and Ren, Ju and Zhang, Yaoxue},
+  booktitle={2024 IEEE Smart World Congress (SWC)}, 
+  title={Unveiling Contactless Sensing with LiDAR Mobility}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={487-494},
+  keywords={Point cloud compression;Image segmentation;Laser radar;Accuracy;Motion segmentation;Interference;Robot sensing systems;Reflection;Sensors;Iterative methods;wireless sensing;robot sensing systems;respiration sensing;LiDAR},
+  doi={10.1109/SWC62898.2024.00098},
+abbr = {UIC'24},
+bibtex_show = {true},
+note = {<span class="note-best-paper">Best Paper Award</span>},
+selected = {false}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+
+
+@ARTICLE{MagSpy,
+  author={Fu, Yongjian and Yang, Lanqing and Pan, Hao and Chen, Yi-Chao and Xue, Guangtao and Ren, Ju},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={MagSpy: Revealing User Privacy Leakage via Magnetometer on Mobile Devices}, 
+  year={2025},
+  volume={24},
+  number={3},
+  pages={2455-2469},
+  keywords={Magnetometers;Mobile applications;Pins;Mobile computing;Object recognition;Electromagnetics;Noise;Magnetic devices;Continuous wavelet transforms;Accuracy;Electromagnetic signal;mobile application usage;privacy},
+  doi={10.1109/TMC.2024.3495506},
+abbr = {TMC'25},
+bibtex_show = {true},
+selected = {false}
+
 }
+
+
+
+@inproceedings{M3Cam,
+author = {Lu, Yu and Ding, Dian and Pan, Hao and Fu, Yongjian and Zhang, Liyun and Tan, Feitong and Wang, Ran and Chen, Yi-Chao and Xue, Guangtao and Ren, Ju},
+title = {M3Cam: Extreme Super-resolution via Multi-Modal Optical Flow for Mobile Cameras},
+year = {2024},
+isbn = {9798400706974},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3666025.3699371},
+doi = {10.1145/3666025.3699371},
+abstract = {The demand for ultra-high-resolution imaging in mobile phone photography is continuously increasing. However, the image resolution of mobile devices is typically constrained by the size of the CMOS sensor. Although deep learning-based super-resolution (SR) techniques have the potential to overcome this limitation, existing SR neural network models require large computational resources, making them unsuitable for real-time SR imaging on current mobile devices. Additionally, cloud-based SR systems pose privacy leakage risks. In this paper, we propose M3Cam, an innovative and lightweight SR imaging system for mobile phones. M3Cam can ensure high-quality 16\texttimes{} SR image (4\texttimes{} in both height and width) visualization with almost negligible latency. In detail, we utilize an optical image stabilization (OIS) module for lens control and introduce a new modality of data, namely gyroscope readings, to achieve high-precision and compact optical flow estimation modules. Building upon this concept, we design a multi-frame-based SR model utilizing the Swin Transformer. Our proposed system can generate a 16\texttimes{} SR image from four captured low-resolution images in real-time, with low computational load, low inference latency, and minimal reliance on runtime RAM. Through extensive experiments, we demonstrate that our proposed multi-modal optical flow model significantly enhances pixel alignment accuracy between multiple frames and delivers outstanding 16\texttimes{} SR imaging results under various shooting scenarios. Code and dataset are available at: https://github.com/liangjindeamo-yuer/M3CAM},
+booktitle = {Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems},
+pages = {744–756},
+numpages = {13},
+keywords = {super-resolution system, optical flow, mobile camera},
+location = {Hangzhou, China},
+series = {SenSys'24},
+abbr = {SenSys'24},
+bibtex_show = {true},
+selected = {true}
+}
+
+
+@inproceedings{HandPad,
+author = {Lu, Yu and Ding, Dian and Pan, Hao and Li, Yijie and Zhou, Juntao and Fu, Yongjian and Zhang, Yongzhao and Chen, Yi-Chao and Xue, Guangtao},
+title = {HandPad: Make Your Hand an On-the-go Writing Pad via Human Capacitance},
+year = {2024},
+isbn = {9798400706288},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3654777.3676328},
+doi = {10.1145/3654777.3676328},
+abstract = {The convenient text input system is a pain point for devices such as AR glasses, and it is difficult for existing solutions to balance portability and efficiency. This paper introduces HandPad, the system that turns the hand into an on-the-go touchscreen, which realizes interaction on the hand via human capacitance. HandPad achieves keystroke and handwriting inputs for letters, numbers, and Chinese characters, reducing the dependency on capacitive or pressure sensor arrays. Specifically, the system verifies the feasibility of touch point localization on the hand using the human capacitance model and proposes a handwriting recognition system based on Bi-LSTM and ResNet. The transfer learning-based system only needs a small amount of training data to build a handwriting recognition model for the target user. Experiments in real environments verify the feasibility of HandPad for keystroke (accuracy of 100\%) and handwriting recognition for letters (accuracy of 99.1\%), numbers (accuracy of 97.6\%) and Chinese characters (accuracy of 97.9\%).},
+booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+articleno = {4},
+numpages = {16},
+keywords = {Handwriting Input, Human Capacitance, Key Stroke},
+location = {Pittsburgh, PA, USA},
+series = {UIST '24},
+abbr = {UIST'24},
+bibtex_show = {true},
+selected = {false}
+}
+
+
+@ARTICLE{UltraSR,
+  author={Fu, Yongjian and Wang, Shuning and Zhong, Linghui and Chen, Lili and Ren, Ju and Zhang, Yaoxue},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={UltraSR: Silent Speech Reconstruction via Acoustic Sensing}, 
+  year={2024},
+  volume={23},
+  number={12},
+  pages={12848-12865},
+  keywords={Ultrasonic imaging;Sensors;Acoustics;Task analysis;Mobile computing;Training;Tongue;Acoustic sensing;human-computer interaction;silent speech interface},
+  doi={10.1109/TMC.2024.3419170},
+abbr = {TMC'24},
+bibtex_show = {true},
+selected = {false}
+
+}
+
+
+
+@inproceedings{MAJIC,
+author = {Fu, Yongjian and Zhang, Yongzhao and Lu, Yu and Qiu, Lili and Chen, Yi-Chao and Wang, Yezhou and Wang, Mei and Li, Yijie and Ren, Ju and Zhang, Yaoxue},
+title = {Adaptive Metasurface-Based Acoustic Imaging using Joint Optimization},
+year = {2024},
+isbn = {9798400705816},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3643832.3661863},
+doi = {10.1145/3643832.3661863},
+abstract = {Acoustic imaging is attractive due to its ability to work under occlusion, different lighting conditions, and privacy-sensitive environments. Existing acoustic imaging methods require large transceiver arrays or device movement, which makes it challenging to use in many scenarios. In this paper, we develop a novel acoustic imaging system for low-cost devices with few speakers and microphones without any device movement. To achieve this goal, we leverage a 3D-printed passive acoustic metasurface to significantly enhance the diversity of the measurement data, thereby improving the imaging quality. Specifically, we jointly design the transmission signal, transceivers' beamforming weights, metasurface, and imaging algorithm to minimize the imaging reconstruction error in an end-to-end manner. We further develop a scheme to dynamically adapt the imaging resolution based on the distance to the target. We implement a system prototype. Using extensive experiments, we show that our system yields high-quality images across a wide range of scenarios.},
+booktitle = {Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services},
+pages = {492–504},
+numpages = {13},
+keywords = {acoustic imaging, compressive sensing, joint optimization},
+location = {Minato-ku, Tokyo, Japan},
+series = {MOBISYS '24},
+abbr = {MobiSys'24},
+bibtex_show = {true},
+selected = {true}
+}
+
+@inproceedings{ChargeX,
+author = {Chen, Lili and Yu, Bozhong and Fu, Yongjian and Ren, Ju and Pan, Hao and Gummeson, Jeremy and Zhang, Yaoxue},
+title = {Pushing Wireless Charging from Station to Travel},
+year = {2024},
+isbn = {9798400704895},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3636534.3649346},
+doi = {10.1145/3636534.3649346},
+abstract = {Wireless charging has achieved promising progress in recent years. However, the severe bottlenecks are the small charging range and poor flexibility. This paper presents ChargeX to enable smart and long-range wireless charging for small mobile devices. ChargeX incorporates emerging smart metasurface into the magnetic resonance coupling-based wireless charging to extend the charging range and accommodates the mobility of charging device. Unlike previous endeavors in metasurface-assisted wireless charging that focused on simulation, ChargeX makes efforts across software and hardware to meet three crucial requirements for a practical wireless charging system: (i) realize high-freedom and accurate metasurface control under the premise of low loss; (ii) obtain real-time feedback from the receiver and make effective manipulation for transmitted magnetic flux; and (iii) generate a proper AC signal source at the desired frequency band. We developed a prototype of ChargeX, and evaluated its performance through controlled experiments and real-world phone charging. Extensive experiments demonstrate the great potential of ChargeX for long-range and flexible wireless charging with a compact receiver design.},
+booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+location = {Washington D.C., DC, USA},
+series = {ACM MobiCom '24},
+abbr = {MobiCom'24},
+bibtex_show = {true},
+selected = {true}
+}
+
+
+@article{MetaAng_Fu,
+author = {Fu, Yongjian and Zhang, Yongzhao and Pan, Hao and Lu, Yu and Li, Xinyi and Chen, Lili and Ren, Ju and Li, Xiong and Zhang, Xiaosong and Zhang, Yaoxue},
+title = {Pushing the Limits of Acoustic Spatial Perception via Incident Angle Encoding},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {8},
+number = {2},
+url = {https://doi.org/10.1145/3659583},
+doi = {10.1145/3659583},
+abstract = {With the growing popularity of smart speakers, numerous novel acoustic sensing applications have been proposed for low-frequency human speech and high-frequency inaudible sounds. Spatial information plays a crucial role in these acoustic applications, enabling various location-based services. However, typically commercial microphone arrays face limitations in spatial perception of inaudible sounds due to their sparse array geometries optimized for low-frequency speech. In this paper, we introduce MetaAng, a system designed to augment microphone arrays by enabling wideband spatial perception across both speech signals and inaudible sounds by leveraging the spatial encoding capabilities of acoustic metasurfaces. Our design is grounded in the fact that, while sensitive to high-frequency signals, acoustic metasurfaces are almost non-responsive to low-frequency speech due to significant wavelength discrepancy. This observation allows us to integrate acoustic metasurfaces with sparse array geometry, simultaneously enhancing the spatial perception of high-frequency and low-frequency acoustic signals. To achieve this, we first utilize acoustic metasurfaces and a configuration optimization algorithm to encode the unique features for each incident angle. Then, we propose an unrolling soft thresholding network that employs neural-enhanced priors and compressive sensing for high-accuracy, high-resolution multi-source angle estimation. We implement a prototype, and experimental results demonstrate that MetaAng maintains robustness across various scenarios, facilitating multiple applications, including localization and tracking.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+abbr = {IMWUT'24},
+bibtex_show = {true},
+selected = {true}
+}
+
+
+@article{UFace_Wang,
+author = {Wang, Shuning and Zhong, Linghui and Fu, Yongjian and Chen, Lili and Ren, Ju and Zhang, Yaoxue},
+title = {UFace: Your Smartphone Can "Hear" Your Facial Expression!},
+year = {2024},
+volume = {8},
+number = {1},
+url = {https://doi.org/10.1145/3643546},
+doi = {10.1145/3643546},
+abstract = {Facial expression recognition (FER) is a crucial task for human-computer interaction and a multitude of multimedia applications that typically call for friendly, unobtrusive, ubiquitous, and even long-term monitoring. Achieving such a FER system meeting these multi-requirements faces critical challenges, mainly including the tiny irregular non-periodic deformation of emotion movements, high variability in facial positions and severe self-interference caused by users' own other behavior. In this work, we present UFace, a long-term, unobtrusive and reliable FER system for daily life using acoustic signals generated by a portable smartphone. We design an innovative network model with dual-stream input based on the attention mechanism, which can leverage distance-time profile features from various viewpoints to extract fine-grained emotion-related signal changes, thus enabling accurate identification of many kinds of expressions. Meanwhile, we propose effective mechanisms to deal with a series of interference issues during actual use. We implement UFace prototype with a daily-used smartphone and conduct extensive experiments in various real-world environments. The results demonstrate that UFace can successfully recognize 7 typical facial expressions with an average accuracy of 87.8\% across 20 participants. Besides, the evaluation of different distances, angles, and interferences proves the great potential of the proposed system to be employed in practical scenarios.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+abbr = {IMWUT'24},
+bibtex_show = {true},
+selected = {false}
+}
+
+@inproceedings{SenSys22_SVoice,
+    author = {Fu, Yongjian and Wang, Shuning and Zhong, Linghui and Chen, Lili and Ren, Ju and Zhang, Yaoxue},
+    title = {SVoice: Enabling Voice Communication in Silence via Acoustic Sensing on Commodity Devices},
+    year = {2022},
+    booktitle = {Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
+    series = {SenSys'22},
+    abbr = {SenSys'22},
+    pages = {622--636},
+    numpages = {15},
+    keywords = {acoustic sensing, {cGAN}, silent speech, transformer},
+    location = {Boston, Massachusetts},
+    publisher = {Association for Computing Machinery},
+    url = {https://doi.org/10.1145/3560905.3568530},
+    doi = {10.1145/3560905.3568530},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+
+
+
+
+
