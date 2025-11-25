@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- New! Our work <strong>MoiréComm</strong> is accepted by <strong>IEEE TDSC 2025</strong>!
+Our work <strong>MoiréComm</strong> is accepted by <strong>IEEE TDSC 2025</strong>!

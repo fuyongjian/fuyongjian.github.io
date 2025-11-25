@@ -26,4 +26,4 @@ I am a Postdoctoral Associate in the Department of Computer Science and Technolo
   at MSRA from 2022 to 2024, and with
   <a href="https://xyzhang.ucsd.edu/" target="_blank">Prof. Xinyu Zhang</a> at UCSD as a visiting scholar from 2024 to 2025.
 
-`[Recruitment]` I am looking for self-motivated PhD students, visiting students, and research interns to work on research projects in edge intelligence, embodied AI, and mobile agent.  
+`[Recruitment]` We are looking for self-motivated PhD students, visiting students, and research interns to work on research projects in edge intelligence, embodied AI, and mobile agent.  
