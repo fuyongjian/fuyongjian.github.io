@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Associate in the Department of Computer Science and Technology at
+I am a Shuimu Scholar Postdoctoral Fellow in the Department of Computer Science and Technology at
   <a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener noreferrer">Tsinghua University</a>,
   working with <a href="https://juren1987.github.io/" target="_blank">Prof. Ju Ren</a>.
   Prior to that, I received my B.S. and Ph.D. degrees in Computer Science and Engineering
