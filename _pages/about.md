@@ -6,7 +6,7 @@ subtitle: >
   <a href='https://www.cs.tsinghua.edu.cn/csen/'>Department of Computer Science and Technology</a>,
   <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>
   fuyongjian [at] tsinghua.edu.cn<br>
-  FIT Building, Room 3529, 89 Shuangqing Rd., Haidian District, Beijing, China<br>
+  FIT Building, Room 3529, 30 Shuangqing Rd., Haidian District, Beijing, China<br>
   <a href='https://scholar.google.com/citations?user=XXXX'>Google Scholar</a>
 
 profile:
