@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-  Selected for the <strong>Shuimu Scholar Program</strong>, and one work has been accepted by <strong>IEEE TMC</strong>.
+  Selected for the <strong>Shuimu Tsinghua Scholar Program</strong>, and one work has been accepted by <strong>IEEE TMC</strong>.

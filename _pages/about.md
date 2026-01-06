@@ -2,7 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.cs.tsinghua.edu.cn/csen/'>Department of Computer Science and Technology</a>, <a href='https://www.tsinghua.edu.cn/en/'> Tsinghua University</a>
+subtitle: >
+  <a href='https://www.cs.tsinghua.edu.cn/csen/'>Department of Computer Science and Technology</a>,
+  <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>
+  fuyongjian [at] tsinghua.edu.cn<br>
+  FIT Building, Room 3529, 89 Shuangqing Rd., Haidian District, Beijing, China<br>
+  <a href='https://scholar.google.com/citations?user=XXXX'>Google Scholar</a>
 
 profile:
   align: right
@@ -26,4 +31,4 @@ I am a Shuimu Scholar Postdoctoral Fellow in the Department of Computer Science 
   at MSRA from 2022 to 2024, and with
   <a href="https://xyzhang.ucsd.edu/" target="_blank">Prof. Xinyu Zhang</a> at UCSD as a visiting scholar from 2024 to 2025.
 
-`[Recruitment]` We are looking for self-motivated PhD students, visiting students, and research interns to work on research projects in edge intelligence, embodied AI, and mobile agent.  
+`[Recruitment]` We are looking for research interns to work on research projects in edge intelligence, embodied AI, and LLM agent.  

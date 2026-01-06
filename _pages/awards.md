@@ -5,7 +5,7 @@ title: Awards
 nav: true
 nav_order: 5
 ---
-- Shuimu Scholar Program, 2025
+- Shuimu Tsinghua Scholar Program, 2025
 
 - ACM SIGMOBILE Student Travel Grant for MobiCom, 2025
 
