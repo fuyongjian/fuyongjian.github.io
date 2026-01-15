@@ -24,8 +24,7 @@ social: true # includes social icons at the bottom of the page
 I am a Shuimu Scholar Postdoctoral Fellow in the Department of Computer Science and Technology at
   <a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener noreferrer">Tsinghua University</a>,
   working with <a href="https://juren1987.github.io/" target="_blank">Prof. Ju Ren</a>.
-  Prior to that, I received my B.S. and Ph.D. degrees in Computer Science and Engineering
-  from Central South University in 2021 and 2025, respectively, advised by
+  Prior to that, I received my B.S. and Ph.D. degrees in Computer Science from Central South University in 2021 and 2025, respectively, advised by
   <a href="https://juren1987.github.io/" target="_blank">Prof. Ju Ren</a>.
   I worked closely with <a href="https://www.cs.utexas.edu/~lili/" target="_blank">Prof. Lili Qiu</a> and <a href="https://ppjhh.com/" target="_blank">Prof. Hao Pan</a>
   at MSRA from 2022 to 2024, and with
