@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-RAG4DMC has been accepted by <strong>ICLR</strong>.
+RAG4DMC has been accepted by <strong>ICLR 2026</strong>.
