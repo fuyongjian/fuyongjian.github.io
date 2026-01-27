@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-31 07:59:00-0400
+date: 2026-01-26 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-<strong>RAG4DMC</strong> has been accepted by <strong>ICLR 2026</strong>.
+Our work <strong>RAG4DMC</strong> has been accepted by <strong>ICLR 2026</strong>!
