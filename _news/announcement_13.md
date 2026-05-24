@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-  Three papers have been accepted by <strong>KDD 2026</strong>, <strong>TON</strong>, <strong>TMC</strong>.
+  Four papers have been accepted by <strong>KDD 2026</strong>, <strong>TON*2</strong>, <strong>TMC</strong>.
