@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-  Invited to serve as TPC for MobiCom'27, please consider submitting!
+Invited to serve as TPC for <strong>MobiCom'27</strong> , please consider submitting!
