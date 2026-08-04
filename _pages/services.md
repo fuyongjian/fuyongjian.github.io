@@ -9,6 +9,7 @@ nav_order: 6
 
 
 - TPC
+    - ACM MobiCom 2027
     - ACM S3 Workshop 2025
     - ACM MobiSys AE 2025
     - ACM SenSys AE 2024
