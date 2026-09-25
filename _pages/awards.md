@@ -5,6 +5,8 @@ title: Awards
 nav: true
 nav_order: 5
 ---
+- ACM SIGMOBILE China Doctoral Dissertation Award, 2026
+
 - WAIC Young Outstanding Paper Award, 2026
 
 - China National Postdoctoral Program for Innovative Talents (人社部-博新计划), 2026
